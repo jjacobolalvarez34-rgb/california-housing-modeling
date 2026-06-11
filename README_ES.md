@@ -1,5 +1,5 @@
 # california-housing-modeling
-Proyecto académico desarrollado durante la asignatura Modelación y Simulación I de la carrera de Matemáticas.
+Proyecto académico desarrollado durante la asignatura Modelación y Simulación 1 de la carrera de Matemáticas.
 
 El objetivo del proyecto fue analizar un conjunto de datos de viviendas y construir modelos predictivos capaces de estimar el precio de una propiedad a partir de sus características físicas, geográficas y socioeconómicas.
 
