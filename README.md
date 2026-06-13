@@ -1,6 +1,6 @@
 # California-House-Modeling
 
-Academic project developed during the **Modeling and Simulation I** course as part of the Mathematics undergraduate program.
+Academic machine learning project developed during the Modeling and Simulation I course as part of the Mathematics undergraduate program.
 
 The objective of this project was to analyze a housing dataset and build predictive models capable of estimating property prices based on physical, geographical, and socioeconomic characteristics.
 
@@ -74,9 +74,41 @@ The models were evaluated using:
 
 ## Results
 
-Multiple predictive approaches were compared to identify the methodology with the strongest predictive performance for the housing dataset.
+### Correlation Analysis
 
-The project also explored the impact of preprocessing techniques, feature selection methods, and hyperparameter tuning on model accuracy and generalization.
+![Correlation Matrix](images/correlation_matrix.png)
+
+The correlation matrix was used to identify relationships between numerical variables and their influence on housing prices.
+
+### Target Variable Distribution
+
+![Target Distribution](images/target_distribution.png)
+
+The distribution of the target variable was analyzed to understand its behavior and identify potential skewness affecting model performance.
+
+### Model Comparison
+
+![Model Comparison](images/model_comparison.png)
+
+Multiple regression models were evaluated using R², MSE and MAE metrics. Random Forest achieved the strongest predictive performance among the tested approaches.
+
+### Actual vs Predicted Values
+
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+This visualization compares real housing prices against model predictions, illustrating the predictive capability of the optimized Random Forest model.
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+Feature importance analysis was performed to identify the variables with the greatest influence on housing price estimation.
+
+### Geographic Analysis
+
+![California Housing Map](images/california_housing_map.png)
+
+Geographical distribution of observations was explored using latitude and longitude variables to identify spatial patterns in housing prices.
 
 ---
 
@@ -97,16 +129,13 @@ house-prices-modeling
 │   ├── residual_analysis.png
 │   ├── feature_importance.png
 │   └── model_comparison.png
-│
-└── docs/
-    └── report.pdf
 ```
 
 ---
 
 ## Author
 
-Jacobo [Last Name]
+Jacobo Lopez
 
 Mathematics Undergraduate Student
 
